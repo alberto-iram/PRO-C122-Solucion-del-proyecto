@@ -47,7 +47,7 @@ while True:
 
              # Verificar si todos los dedos están doblados
             if all(finger_fold_status):
-                # Tomar una captura de pantalla y almacenarla en la memorioa,
+                # Tomar una captura de pantalla y almacenarla en la memoria,
                 # Luego, convertir la imagen PIL/Pillow a un arreglo NumPy compatible con OpenCV.
                 # Finalmente, escribir la imagen en el disco
                 image = pyautogui.screenshot()
